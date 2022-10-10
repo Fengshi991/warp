@@ -58,7 +58,7 @@ while True:
 		print("")
 		print("Getting WARP+ Traffic")
 		print("")
-		animation = ["[■□□□□□□□□□] 10%","[■■□□□□□□□□] 20%", "[■■■□□□□□□□] 30%"] 
+		animation = ["10%","50%","100%"] 
 		for i in range(len(animation)):
 			time.sleep(0.5)
 			sys.stdout.write("\r[+] Preparing... " + animation[i % len(animation)])
